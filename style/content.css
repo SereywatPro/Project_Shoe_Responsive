@@ -141,7 +141,7 @@ img{
 
 /* Section-Best-seller-product */
 .main-content> .best-seller-product{
-    height: 82rem;
+    height: 83rem;
     background-color: rgba(0, 255, 255, 0);
     width: 75%;
     margin: auto;
@@ -220,21 +220,23 @@ h6 a{
 
 .card-body>.min-caption> .caption{
     position: absolute;
-    bottom: 15px;
-    left: 1rem;
+    bottom: 9px;
+    left: 9px;
     padding: 8px;
-    width: 403px;
+    width: 418px;
     border: none;
     border-radius: 0px;
     /* background: transparent; */
 
 }
-.min-caption{
+ .min-caption{
     opacity: 0;
     transition: all .3s;
 }
 .min-caption:hover{
   opacity: 1;
+  
+
 }
 .card-class> .caption>span{
     color: grey;
@@ -418,17 +420,19 @@ del{
 
 .detail-create-shoes>.detail-create-shoes-left{
     padding-left: 30px;
-    padding-top: 110px;
-   
+    padding-top: 60px;
+   font-size: 20px;
 }
 .detail-create-shoes>.detail-create-shoes-right{
-    padding-right: 30px;
-    padding-top: 130px;
+    padding-right: 0px;
+    padding-top: 80px;
+    font-size: 20px;
 }
 .detail-create-shoes>.image-create-shoes{
     height: 320px;
     width: 420px;
-    margin-top: 90px;
+    margin-top: 110px;
+    margin-left: 10px;
 }
 .no-1{
     color: var(--color--luminous-vivid-amber);
@@ -455,6 +459,125 @@ del{
 
 .hr{
     color: rgb(196, 194, 194);
+}
+/* section-best-seller */
+.main-content> .best-seller-product{
+    height: 83rem;
+    background-color: rgba(0, 255, 255, 0.02);
+    width: 97%;
+    margin: auto;
+    margin-top: 6rem;
+    
+}
+.best-seller-product> .title-best-seller{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.title-best-seller>span{
+    font-size: 25px;
+    margin-left: 16px;
+    color: black;
+}
+
+.title-best-seller> a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: goldenrod ;
+    text-decoration-thickness: 0.15em;
+    transition: .5s;
+}
+a:hover{
+    text-decoration-color: rgb(37, 37, 36) ;
+}
+.main-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 380px;
+    
+    
+}
+.best-seller-product>.main-card> .card-class{
+    width: 275px;
+    height: 350px;
+    border: none;
+    border-radius: 0px;
+    
+    
+    
+}
+.card-class> .sale-category{
+    background-color: rgba(127, 255, 212, 0);
+}
+.sale-category>.owe-sale{
+    position: absolute;
+    display: inline;
+    right: -5px;
+    top: -15px;
+    padding: 10px 4px;
+    background-color: rgb(54, 94, 46);
+    border-radius: 2.5em;
+    color: white;
+    z-index: 1;
+}
+.card-class> .caption{
+    /* background-color: rgba(127, 255, 212, 0.977); */
+    margin-top: 15px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+.caption> h6,del{
+    font-weight: 600;
+   
+}
+h6 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.card-class> .card-body{
+    cursor:pointer;
+    position: relative;
+}
+
+.card-body>.min-caption> .caption{
+    position: absolute;
+    bottom: 15px;
+    left: 1rem;
+    padding: 5px;
+    width: 219px;
+    border: none;
+    border-radius: 0px;
+    /* background: transparent; */
+
+}
+.min-caption{
+    opacity: 0;
+    transition: all .3s;
+}
+.min-caption:hover{
+  opacity: 1;
+}
+.card-class> .caption>span{
+    color: grey;
+    font-weight: 600;
+}
+del{
+    color: #d3ced2;
+}
+.star{
+  padding-right: 173px;
+    
+}
+.caption>.star>.bi-star{
+    color: #9f9f9f;
+    float: left;
 }
 
 }
@@ -628,10 +751,9 @@ del{
 /* header */
 .main-content>.main-create-shoe{
     width: 95%;
-    height: 1600px;
+    height: 1400px;
     background-color:#f1f1ef;
     /* background-color:rgba(167, 17, 17, 0.732); */
-    margin: auto;
     margin-top: 400px;
     
 }
@@ -649,10 +771,10 @@ del{
 }
 /* image */
 .detail-create-shoes>.image-create-shoes{
-    height: 310px;
-    width: 375px;
-    margin-top: 90px;
-    margin-left: 35px;
+    height: 320px;
+    width: 450px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 .no-1{
     color: var(--color--luminous-vivid-amber);
@@ -680,6 +802,124 @@ del{
 .hr{
     color: rgb(196, 194, 194);
 }
+
+/* section-best-seller */
+.main-content> .best-seller-product{
+    height: 73rem;
+    background-color: rgba(0, 255, 255, 0);
+    width: 99%;
+    margin-top: 6rem;
+    
+}
+.best-seller-product> .title-best-seller{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.title-best-seller>span{
+    font-size: 22px;
+    margin-left: 16px;
+    color: black;
+}
+
+.title-best-seller> a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    text-decoration-color: goldenrod ;
+    text-decoration-thickness: 0.15em;
+    transition: .5s;
+}
+a:hover{
+    text-decoration-color: rgb(37, 37, 36) ;
+}
+.main-card{
+    margin-left: 20px;
+    margin-right: -20px;
+    gap: 10px;
+    
+}
+.best-seller-product>.main-card> .card-class{
+    width: 200px;
+    height: 330px;
+    border: none;
+    border-radius: 0px;
+    margin-left: 12px;
+
+
+}
+.card-class> .sale-category{
+    background-color: rgba(127, 255, 212, 0);
+}
+.sale-category>.owe-sale{
+    position: absolute;
+    display: inline;
+    right: -5px;
+    top: -10px;
+    padding: 10px 4px;
+    background-color: rgb(54, 94, 46);
+    border-radius: 2.5em;
+    color: white;
+    z-index: 1;
+}
+.card-class> .caption{
+    background-color: rgba(127, 255, 212, 0);
+    margin-top: 15px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+    
+}
+.caption> h6,del{
+    font-weight: 600;
+   
+}
+h6 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.card-class> .card-body{
+    cursor:pointer;
+    position: relative;
+}
+
+.card-body>.min-caption> .caption{
+    position: absolute;
+    bottom: 0px;
+    left: 0rem;
+    padding: 5px;
+    width: 188px;
+    border: none;
+    border-radius: 0px;
+    /* background: transparent; */
+
+}
+.min-caption{
+    opacity: 0;
+    transition: all .3s;
+}
+.min-caption:hover{
+  opacity: 1;
+}
+.card-class> .caption>span{
+    color: grey;
+    font-weight: 600;
+}
+del{
+    color: #d3ced2;
+}
+.star{
+   padding-right: 95px;
+}
+.caption>.star>.bi-star{
+    color: #d3ced2;
+    float: left;
+    
+}
+
 }
 /* lager devices */
 @media screen and (min-width:885px) and (max-width:1728px){
@@ -851,13 +1091,14 @@ del{
    
 }
 .detail-create-shoes>.detail-create-shoes-right{
-    padding-right: 30px;
+    padding-right: 0px;
     padding-top: 130px;
 }
 .detail-create-shoes>.image-create-shoes{
     height: 320px;
     width: 420px;
     margin-top: 90px;
+    
 }
 .no-1{
     color: var(--color--luminous-vivid-amber);
